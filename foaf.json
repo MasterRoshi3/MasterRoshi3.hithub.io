@@ -1,0 +1,1138 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://schema.org",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2003/01/geo/wgs84_pos",
+      "http://purl.org/dc/terms",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://xmlns.com/foaf/0.1",
+      "http://www.w3.org/2000/10/swap/pim/contact",
+      "http://www.w3.org/2004/02/skos/core"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "wot": "http://xmlns.com/wot/0.1/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "vs": "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "title": {
+      "undefined": "Friend of a Friend (FOAF) vocabulary"
+    },
+    "iri": "http://xmlns.com/foaf/0.1/",
+    "description": {
+      "undefined": "The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language."
+    },
+    "other": {
+      "title": [
+        {
+          "identifier": "title",
+          "language": "undefined",
+          "value": "Friend of a Friend (FOAF) vocabulary",
+          "type": "label"
+        }
+      ]
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.63",
+      "translation": [
+        480.1,
+        211.68
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 250,
+      "datatypeDistance": 10
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "1"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "5",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "8",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "21",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "61",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "6",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "94",
+      "type": "owl:Class"
+    },
+    {
+      "id": "126",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class52",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class53",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class54",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class55",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class56",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class57",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class58",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class59",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class60",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class61",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class63",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class64",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class65",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class66",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class67",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class68",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class69",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class70",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class71",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class74",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class76",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class77",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class78",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class79",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "5",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      }
+    },
+    {
+      "id": "8",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "21",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      }
+    },
+    {
+      "id": "61",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "94",
+      "iri": "http://xmlns.com/foaf/0.1/LabelProperty",
+      "baseIri": "http://xmlns.com/foaf/0.1",
+      "label": {
+        "IRI-based": "LabelProperty",
+        "undefined": "Label Property"
+      },
+      "comment": {
+        "undefined": "A foaf:LabelProperty is any RDF property with texual values that serve as labels."
+      },
+      "annotations": {
+        "isDefinedBy": [
+          {
+            "identifier": "isDefinedBy",
+            "language": "undefined",
+            "value": "http://xmlns.com/foaf/0.1/",
+            "type": "iri"
+          }
+        ],
+        "term_status": [
+          {
+            "identifier": "term_status",
+            "language": "undefined",
+            "value": "unstable",
+            "type": "label"
+          }
+        ]
+      }
+    },
+    {
+      "id": "126",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Class",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": {
+        "IRI-based": "Class"
+      },
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "id": "Class52",
+      "iri": "http://xmlns.com/foaf/0.1/Dinosauriërs",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Dinosauriërs",
+      "pos": [
+        1115.9,
+        639.09
+      ]
+    },
+    {
+      "id": "Class53",
+      "iri": "http://xmlns.com/foaf/0.1/Saurischia",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Saurischia",
+      "pos": [
+        722.03,
+        804.73
+      ]
+    },
+    {
+      "id": "Class54",
+      "iri": "http://xmlns.com/foaf/0.1/Ornitischia",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Ornitischia",
+      "pos": [
+        1479.8,
+        408.37
+      ]
+    },
+    {
+      "id": "Class55",
+      "iri": "http://xmlns.com/foaf/0.1/Tyrannosaurus_Rex",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Tyrannosaurus Rex",
+      "pos": [
+        550.66,
+        371.92
+      ]
+    },
+    {
+      "id": "Class56",
+      "iri": "http://xmlns.com/foaf/0.1/West_Verenigde_Staten",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "West Verenigde Staten",
+      "pos": [
+        136.61,
+        401.12
+      ]
+    },
+    {
+      "id": "Class57",
+      "iri": "http://xmlns.com/foaf/0.1/Trix",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Trix",
+      "pos": [
+        221.95,
+        114.45
+      ]
+    },
+    {
+      "id": "Class58",
+      "iri": "http://xmlns.com/foaf/0.1/Plateosaurus",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Plateosaurus",
+      "pos": [
+        330.86,
+        977.02
+      ]
+    },
+    {
+      "id": "Class59",
+      "iri": "http://xmlns.com/foaf/0.1/Europa",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Europa",
+      "pos": [
+        -58.88,
+        877.72
+      ]
+    },
+    {
+      "id": "Class60",
+      "iri": "http://xmlns.com/foaf/0.1/Late_Trias",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Late Trias",
+      "pos": [
+        168.2,
+        1346.52
+      ]
+    },
+    {
+      "id": "Class61",
+      "iri": "http://xmlns.com/foaf/0.1/214_-_204_miljoen_jaar_geleden",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "214 - 204 miljoen jaar geleden",
+      "pos": [
+        400.6,
+        1665.12
+      ]
+    },
+    {
+      "id": "Class63",
+      "iri": "http://xmlns.com/foaf/0.1/Camarasaurus",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Camarasaurus",
+      "pos": [
+        996.05,
+        1172.54
+      ]
+    },
+    {
+      "id": "Class64",
+      "iri": "http://xmlns.com/foaf/0.1/Colorado",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Colorado",
+      "pos": [
+        840.52,
+        1552.07
+      ]
+    },
+    {
+      "id": "Class65",
+      "iri": "http://xmlns.com/foaf/0.1/Utah",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Utah",
+      "pos": [
+        1141.62,
+        1559.91
+      ]
+    },
+    {
+      "id": "Class66",
+      "iri": "http://xmlns.com/foaf/0.1/Late_Krijt",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Late Krijt",
+      "pos": [
+        863.11,
+        39.68
+      ]
+    },
+    {
+      "id": "Class67",
+      "iri": "http://xmlns.com/foaf/0.1/66_miljoen_jaar_geleden",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "66 miljoen jaar geleden",
+      "pos": [
+        583.19,
+        -264.79
+      ]
+    },
+    {
+      "id": "Class68",
+      "iri": "http://xmlns.com/foaf/0.1/Edmontosaurus",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Edmontosaurus",
+      "pos": [
+        1253.7,
+        43.22
+      ]
+    },
+    {
+      "id": "Class69",
+      "iri": "http://xmlns.com/foaf/0.1/Triceratops",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Triceratops",
+      "pos": [
+        1356.38,
+        -7.39
+      ]
+    },
+    {
+      "id": "Class70",
+      "iri": "http://xmlns.com/foaf/0.1/Noord-Amerika",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Noord-Amerika",
+      "pos": [
+        1234.72,
+        -382.52
+      ]
+    },
+    {
+      "id": "Class71",
+      "iri": "http://xmlns.com/foaf/0.1/Dirk",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Dirk",
+      "pos": [
+        1750.07,
+        -126.03
+      ]
+    },
+    {
+      "id": "Class74",
+      "iri": "http://xmlns.com/foaf/0.1/Stegosaurus",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Stegosaurus",
+      "pos": [
+        1690.43,
+        797.94
+      ]
+    },
+    {
+      "id": "Class76",
+      "iri": "http://xmlns.com/foaf/0.1/Verenigde_Staten",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Verenigde Staten",
+      "pos": [
+        2051.61,
+        608.27
+      ]
+    },
+    {
+      "id": "Class77",
+      "iri": "http://xmlns.com/foaf/0.1/Portugal",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Portugal",
+      "pos": [
+        2017.74,
+        1036.21
+      ]
+    },
+    {
+      "id": "Class78",
+      "iri": "http://xmlns.com/foaf/0.1/Late_Jura",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Late Jura",
+      "pos": [
+        1432.22,
+        1150.41
+      ]
+    },
+    {
+      "id": "Class79",
+      "iri": "http://xmlns.com/foaf/0.1/203_-_145_miljoen_jaar_geleden",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "203 - 145 miljoen jaar geleden",
+      "pos": [
+        1658.45,
+        1483.66
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "4",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "7",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "103",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty75",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty76",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty77",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty78",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty79",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty80",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty81",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty82",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty83",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty85",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty86",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty88",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty89",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty90",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty91",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty92",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty93",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty94",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty95",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty97",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty98",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty99",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty101",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty102",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty103",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty104",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty105",
+      "type": "owl:ObjectProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "4",
+      "iri": "http://xmlns.com/foaf/0.1/mbox_sha1sum",
+      "baseIri": "http://xmlns.com/foaf/0.1",
+      "label": {
+        "IRI-based": "mbox_sha1sum",
+        "undefined": "sha1sum of a personal mailbox URI name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "undefined": "The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the  first owner of the mailbox."
+      },
+      "annotations": {
+        "isDefinedBy": [
+          {
+            "identifier": "isDefinedBy",
+            "language": "undefined",
+            "value": "http://xmlns.com/foaf/0.1/",
+            "type": "iri"
+          }
+        ],
+        "term_status": [
+          {
+            "identifier": "term_status",
+            "language": "undefined",
+            "value": "testing",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "5",
+      "range": "6"
+    },
+    {
+      "id": "7",
+      "iri": "http://xmlns.com/foaf/0.1/nick",
+      "baseIri": "http://xmlns.com/foaf/0.1",
+      "label": {
+        "IRI-based": "nick",
+        "undefined": "nickname"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "undefined": "A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames)."
+      },
+      "annotations": {
+        "isDefinedBy": [
+          {
+            "identifier": "isDefinedBy",
+            "language": "undefined",
+            "value": "http://xmlns.com/foaf/0.1/",
+            "type": "iri"
+          }
+        ],
+        "term_status": [
+          {
+            "identifier": "term_status",
+            "language": "undefined",
+            "value": "testing",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "5",
+      "range": "8"
+    },
+    {
+      "id": "103",
+      "iri": "http://xmlns.com/foaf/0.1/msnChatID",
+      "baseIri": "http://xmlns.com/foaf/0.1",
+      "label": {
+        "IRI-based": "msnChatID",
+        "undefined": "MSN chat ID"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "undefined": "An MSN chat ID"
+      },
+      "annotations": {
+        "isDefinedBy": [
+          {
+            "identifier": "isDefinedBy",
+            "language": "undefined",
+            "value": "http://xmlns.com/foaf/0.1/",
+            "type": "iri"
+          }
+        ],
+        "term_status": [
+          {
+            "identifier": "term_status",
+            "language": "undefined",
+            "value": "testing",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "5",
+      "range": "61"
+    },
+    {
+      "id": "objectProperty75",
+      "iri": "http://xmlns.com/foaf/0.1/heeft_als_ordenaam",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "heeft als ordenaam",
+      "domain": "Class52",
+      "range": "Class53",
+      "pos": [
+        918.96,
+        721.91
+      ]
+    },
+    {
+      "id": "objectProperty76",
+      "iri": "http://xmlns.com/foaf/0.1/heeft_als_ordenaam",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "heeft als ordenaam",
+      "domain": "Class52",
+      "range": "Class54",
+      "pos": [
+        1297.85,
+        523.73
+      ]
+    },
+    {
+      "id": "objectProperty77",
+      "iri": "http://xmlns.com/foaf/0.1/heeft_als_geslacht",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "heeft als geslacht",
+      "domain": "Class53",
+      "range": "Class55",
+      "pos": [
+        636.34,
+        588.33
+      ]
+    },
+    {
+      "id": "objectProperty78",
+      "iri": "http://xmlns.com/foaf/0.1/heeft_als_bijnaam",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "heeft als bijnaam",
+      "domain": "Class55",
+      "range": "Class57",
+      "pos": [
+        386.3,
+        243.19
+      ]
+    },
+    {
+      "id": "objectProperty79",
+      "iri": "http://xmlns.com/foaf/0.1/leefde_in",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "leefde in",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class55",
+      "range": "Class56",
+      "pos": [
+        343.64,
+        386.52
+      ]
+    },
+    {
+      "id": "objectProperty80",
+      "iri": "http://xmlns.com/foaf/0.1/heeft_als_geslacht",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "heeft als geslacht",
+      "domain": "Class53",
+      "range": "Class58",
+      "pos": [
+        526.44,
+        890.88
+      ]
+    },
+    {
+      "id": "objectProperty81",
+      "iri": "http://xmlns.com/foaf/0.1/leefde_in",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "leefde in",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class58",
+      "range": "Class59",
+      "pos": [
+        135.99,
+        927.37
+      ]
+    },
+    {
+      "id": "objectProperty82",
+      "iri": "http://xmlns.com/foaf/0.1/leefde_in_de_periode",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "leefde in de periode",
+      "domain": "Class58",
+      "range": "Class60",
+      "pos": [
+        249.53,
+        1161.77
+      ]
+    },
+    {
+      "id": "objectProperty83",
+      "iri": "http://xmlns.com/foaf/0.1/vond_plaats",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "vond plaats",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class60",
+      "range": "Class61",
+      "pos": [
+        284.4,
+        1505.82
+      ]
+    },
+    {
+      "id": "objectProperty85",
+      "iri": "http://xmlns.com/foaf/0.1/heeft_als_geslacht",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "heeft als geslacht",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class53",
+      "range": "Class63",
+      "pos": [
+        859.04,
+        988.64
+      ]
+    },
+    {
+      "id": "objectProperty86",
+      "iri": "http://xmlns.com/foaf/0.1/leefde_in",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "leefde in",
+      "domain": "Class63",
+      "range": "Class65",
+      "pos": [
+        1068.83,
+        1366.23
+      ]
+    },
+    {
+      "id": "objectProperty88",
+      "iri": "http://xmlns.com/foaf/0.1/leefde_in",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "leefde in",
+      "domain": "Class63",
+      "range": "Class64",
+      "pos": [
+        918.28,
+        1362.31
+      ]
+    },
+    {
+      "id": "objectProperty89",
+      "iri": "http://xmlns.com/foaf/0.1/leefde_in_de_periode",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "leefde in de periode",
+      "domain": "Class55",
+      "range": "Class66",
+      "pos": [
+        706.89,
+        205.8
+      ]
+    },
+    {
+      "id": "objectProperty90",
+      "iri": "http://xmlns.com/foaf/0.1/vond_plaats",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "vond plaats",
+      "domain": "Class66",
+      "range": "Class67",
+      "pos": [
+        723.15,
+        -112.56
+      ]
+    },
+    {
+      "id": "objectProperty91",
+      "iri": "http://xmlns.com/foaf/0.1/heeft_als_geslacht",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "heeft als geslacht",
+      "domain": "Class54",
+      "range": "Class68",
+      "pos": [
+        1366.75,
+        225.79
+      ]
+    },
+    {
+      "id": "objectProperty92",
+      "iri": "http://xmlns.com/foaf/0.1/leefde_in_de_periode",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "leefde in de periode",
+      "domain": "Class68",
+      "range": "Class66",
+      "pos": [
+        1058.41,
+        41.45
+      ]
+    },
+    {
+      "id": "objectProperty93",
+      "iri": "http://xmlns.com/foaf/0.1/heeft_als_geslacht",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "heeft als geslacht",
+      "domain": "Class54",
+      "range": "Class69",
+      "pos": [
+        1418.09,
+        200.49
+      ]
+    },
+    {
+      "id": "objectProperty94",
+      "iri": "http://xmlns.com/foaf/0.1/leefde_in_de_periode",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "leefde in de periode",
+      "domain": "Class69",
+      "range": "Class66",
+      "pos": [
+        1109.74,
+        16.15
+      ]
+    },
+    {
+      "id": "objectProperty95",
+      "iri": "http://xmlns.com/foaf/0.1/leefde_in",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "leefde in",
+      "domain": "Class68",
+      "range": "Class70",
+      "pos": [
+        1244.21,
+        -169.65
+      ]
+    },
+    {
+      "id": "objectProperty97",
+      "iri": "http://xmlns.com/foaf/0.1/leefde_inn",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "leefde in",
+      "domain": "Class69",
+      "range": "Class70",
+      "pos": [
+        1295.55,
+        -194.95
+      ]
+    },
+    {
+      "id": "objectProperty98",
+      "iri": "http://xmlns.com/foaf/0.1/heeft_als_bijnaam",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "heeft als bijnaam",
+      "domain": "Class69",
+      "range": "Class71",
+      "pos": [
+        1553.22,
+        -66.71
+      ]
+    },
+    {
+      "id": "objectProperty99",
+      "iri": "http://xmlns.com/foaf/0.1/heeft_als_geslacht",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "heeft als geslacht",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class54",
+      "range": "Class74",
+      "pos": [
+        1585.12,
+        603.15
+      ]
+    },
+    {
+      "id": "objectProperty101",
+      "iri": "http://xmlns.com/foaf/0.1/leefde_in",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "leefde in",
+      "domain": "Class74",
+      "range": "Class76",
+      "pos": [
+        1871.02,
+        703.11
+      ]
+    },
+    {
+      "id": "objectProperty102",
+      "iri": "http://xmlns.com/foaf/0.1/leefde_in",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "leefde in",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class74",
+      "range": "Class77",
+      "pos": [
+        1854.08,
+        917.07
+      ]
+    },
+    {
+      "id": "objectProperty103",
+      "iri": "http://xmlns.com/foaf/0.1/leefde_in_de_periode",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "leefde in de periode",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class74",
+      "range": "Class78",
+      "pos": [
+        1561.32,
+        974.18
+      ]
+    },
+    {
+      "id": "objectProperty104",
+      "iri": "http://xmlns.com/foaf/0.1/vond_plaats",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "vond plaats",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class78",
+      "range": "Class79",
+      "pos": [
+        1545.33,
+        1317.04
+      ]
+    },
+    {
+      "id": "objectProperty105",
+      "iri": "http://xmlns.com/foaf/0.1/leefde_in_de_periode",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "leefde in de periode",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class63",
+      "range": "Class78",
+      "pos": [
+        1214.13,
+        1161.48
+      ]
+    }
+  ]
+}
